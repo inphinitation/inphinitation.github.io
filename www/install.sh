@@ -143,7 +143,7 @@ fetch_repo () {
         success "Successfully update SpaceVim"
     else
         info "Trying to clone SpaceVim"
-        git clone --depth 1 https://spacevim.org/git/repos/SpaceVim/ "${XDGSpaceDir:-}"
+        git clone --depth 1 https://github.com/wsdjeg/SpaceVim "${XDGSpaceDir:-}"
         if [ $? -eq 0 ]; then
             success "Successfully clone SpaceVim"
         else
@@ -293,16 +293,16 @@ usage () {
     echo ""
     echo "    Install SpaceVim for vim and neovim"
     echo ""
-    echo "        curl -sLf https://spacevim.org/install.sh | bash"
+    echo "        curl -sLf https://inphinitation.github.io/install.sh | bash"
     echo ""
     echo "    Install SpaceVim for vim only or neovim only"
     echo ""
-    echo "        curl -sLf https://spacevim.org/install.sh | bash -s -- --install vim"
-    echo "        curl -sLf https://spacevim.org/install.sh | bash -s -- --install neovim"
+    echo "        curl -sLf https://inphinitation.github.io/install.sh | bash -s -- --install vim"
+    echo "        curl -sLf https://inphinitation.github.io/install.sh | bash -s -- --install neovim"
     echo ""
     echo "    Uninstall SpaceVim"
     echo ""
-    echo "        curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall"
+    echo "        curl -sLf https://inphinitation.github.io/install.sh | bash -s -- --uninstall"
 }
 # }}}
 
