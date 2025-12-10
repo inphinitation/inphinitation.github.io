@@ -293,16 +293,16 @@ usage () {
     echo ""
     echo "    Install SpaceVim for vim and neovim"
     echo ""
-    echo "        curl -sLf https://inphinitation.github.io/install.sh | bash"
+    echo "        curl -sLf https://inphinitation.github.io/www/install.sh | bash"
     echo ""
     echo "    Install SpaceVim for vim only or neovim only"
     echo ""
-    echo "        curl -sLf https://inphinitation.github.io/install.sh | bash -s -- --install vim"
-    echo "        curl -sLf https://inphinitation.github.io/install.sh | bash -s -- --install neovim"
+    echo "        curl -sLf https://inphinitation.github.io/www/install.sh | bash -s -- --install vim"
+    echo "        curl -sLf https://inphinitation.github.io/www/install.sh | bash -s -- --install neovim"
     echo ""
     echo "    Uninstall SpaceVim"
     echo ""
-    echo "        curl -sLf https://inphinitation.github.io/install.sh | bash -s -- --uninstall"
+    echo "        curl -sLf https://inphinitation.github.io/www/install.sh | bash -s -- --uninstall"
 }
 # }}}
 
