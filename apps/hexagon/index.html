@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Install hexagon</title>
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root { color-scheme: dark; --bg: #19161f; --card: #26222e; --text: #f1edf6; --muted: #a69fb3; --honey: #f2b53a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--text);
+         font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; padding: 24px 16px; }
+  main { width: 100%; max-width: 380px; background: var(--card); border-radius: 20px; padding: 28px 24px; text-align: center; }
+  img { width: 88px; height: 88px; border-radius: 20px; }
+  h1 { margin: 14px 0 2px; font-size: 1.5rem; }
+  .version { margin: 0 0 22px; color: var(--muted); font-size: 0.9rem; }
+  .install { display: block; padding: 13px; border-radius: 12px; background: var(--honey); color: #1b1610;
+             font-weight: 600; text-decoration: none; }
+  .note { margin: 18px 0 0; color: var(--muted); font-size: 0.85rem; text-align: left; }
+  .note p { margin: 0 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <img src="icon.png" alt="">
+  <h1>hexagon</h1>
+  <p class="version">Version 0.1.0 (build 45)</p>
+  <a class="install" href="itms-services://?action=download-manifest&amp;url=https://inphinitation.github.io/apps/hexagon/manifest.plist">Install</a>
+  <div class="note">
+    <p>Open this page in Safari on the iPhone or iPad, tap <b>Install</b>, then confirm. The app appears on the home screen as it downloads.</p>
+    <p>This is a development build: it installs only on devices registered in its provisioning profile. On iOS 16 and later, turn on Developer Mode (Settings › Privacy &amp; Security) before opening it.</p>
+  </div>
+</main>
+</body>
+</html>
